@@ -35,6 +35,8 @@ class Division {
     static let examples = [Division.createDivision(code: "cComW1-1", teacher: "MC"),
                            Division.createDivision(code: "cEcoX1-1", teacher: "REB"),
                            Division.createDivision(code: "MdaY-1", teacher: "SSAG"),
+                           Division.createDivision(code: "cEcoX1-1", teacher: "AUI"),
+                           Division.createDivision(code: "cComW1-1", teacher: "DPC"),
                            Division.createDivision(code: "MdpV-1", teacher: "JMS")]
     
     #endif

@@ -8,20 +8,28 @@
 import SwiftUI
 
 struct ContentView: View {
-    
+    var student = "Akshat Jakotiah"
+    var studentHouse = "DWBA"
     let exampleDivisions = Division.examples
     var selectedDiv = 0
     let exampleDivision = Division(code : "CComW-1", teacher: "MC")
     var body: some View {
         
         
-        VStack{
-            Text("Comment Card Writer")
-                .font(.title)
+        VStack(alignment: .trailing){
+            Text("\(student) " +   " \(studentHouse)  ")
                 .bold()
-                .foregroundColor(.orange)
-                .baselineOffset(690)
-            Text(exampleDivisions[selectedDiv].displayStats())
+            Form{
+                Text("Comment Card Writer")
+                    .font(.title)
+                    .bold()
+                    .foregroundColor(.teal)
+                    .baselineOffset(580)
+               
+                Text(exampleDivisions[selectedDiv].displayStats())
+                
+                
+            }
             
         }
         
