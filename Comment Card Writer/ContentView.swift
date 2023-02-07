@@ -8,10 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    let exampleDivisions = Division.examples
+    var selectedDiv = 0
+    let exampleDivision = Division(code : "CComW-1", teacher: "MC")
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+        
+        VStack{
+            Text("Comment Card Writer")
+                .font(.title)
+                .bold()
+                .foregroundColor(.orange)
+                .baselineOffset(690)
+            Text(exampleDivisions[selectedDiv].displayStats())
+            
+        }
+        
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
@@ -19,4 +34,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
-//a
+
