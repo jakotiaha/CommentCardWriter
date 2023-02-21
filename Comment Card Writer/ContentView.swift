@@ -13,28 +13,27 @@ struct ContentView: View {
     let exampleDivisions = Division.examples
     let exampleDivision = Division(code : "CComW-1", teacher: "MC")
     
+    
     var body: some View {
         
         NavigationView {
     
             VStack(alignment: .trailing){
                 Text("\(student) " +   " \(studentHouse)  ")
-                    .bold()
-                
-                Form {
-                    Text("Comment Card Writer")
-                        .font(.title)
-                        .bold()
-                        .foregroundColor(.teal)
-                    
-                    List(exampleDivisions, id: \.self.code) { division in NavigationLink(destination: StudentInput(division: division)){
+                   .bold()
+            
+                List(exampleDivisions, id: \.self.code) { division in
+                        
+                        NavigationLink(destination: StudentInput(division: division)){
                             Text("\(division.code)")
                         }
                     }
-            
+                
+                
                 }
             }
-        }
+        .navigationBarTitle("Comment Card Writer", displayMode: .large)
+        
     }
 }
 

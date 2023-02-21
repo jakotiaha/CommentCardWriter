@@ -10,6 +10,7 @@ import Foundation
 class Division {
     let code: String
     let teacher: String
+    var stats: Statistics = Statistics()
     
     init(code: String, teacher: String) {
         self.code = code

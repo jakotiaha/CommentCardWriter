@@ -15,6 +15,7 @@
 		2060468929925ACF00D353C0 /* Comment_Card_WriterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2060468829925ACF00D353C0 /* Comment_Card_WriterUITests.swift */; };
 		2060468B29925ACF00D353C0 /* Comment_Card_WriterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2060468A29925ACF00D353C0 /* Comment_Card_WriterUITestsLaunchTests.swift */; };
 		2060469929925E1100D353C0 /* Divisions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2060469829925E1100D353C0 /* Divisions.swift */; };
+		20BFE15B29A4D9BA00FD9B81 /* Statistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BFE15A29A4D9BA00FD9B81 /* Statistics.swift */; };
 		20EAACF82993A36B0089330B /* StudentInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EAACF72993A36B0089330B /* StudentInput.swift */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +48,7 @@
 		2060468829925ACF00D353C0 /* Comment_Card_WriterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment_Card_WriterUITests.swift; sourceTree = "<group>"; };
 		2060468A29925ACF00D353C0 /* Comment_Card_WriterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment_Card_WriterUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2060469829925E1100D353C0 /* Divisions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Divisions.swift; sourceTree = "<group>"; };
+		20BFE15A29A4D9BA00FD9B81 /* Statistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Statistics.swift; sourceTree = "<group>"; };
 		20EAACF72993A36B0089330B /* StudentInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentInput.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -137,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				2060469829925E1100D353C0 /* Divisions.swift */,
+				20BFE15A29A4D9BA00FD9B81 /* Statistics.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				20EAACF82993A36B0089330B /* StudentInput.swift in Sources */,
+				20BFE15B29A4D9BA00FD9B81 /* Statistics.swift in Sources */,
 				2060467029925ACD00D353C0 /* ContentView.swift in Sources */,
 				2060469929925E1100D353C0 /* Divisions.swift in Sources */,
 				2060466E29925ACD00D353C0 /* Comment_Card_WriterApp.swift in Sources */,

@@ -10,6 +10,16 @@ import SwiftUI
 struct StudentInput: View {
     let division: Division
     var body: some View {
-        Text("Division View: \(division.code) + \(division.teacher)")
+        VStack{
+            List{
+                
+               Text(division.stats.displayMeasures())
+                
+            }
+            .navigationTitle("Division View: \(division.code) + \(division.teacher)")
+            .navigationBarTitleDisplayMode(.inline)
+      }
     }
 }
+
+
