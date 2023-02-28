@@ -8,6 +8,10 @@
 import SwiftUI
 
 struct StudentInput: View {
+    @State private var homeworkDifficulty: String = ""
+    @State private var classworkDifficulty: String = ""
+    @State private var overallEnjoyment: String = ""
+    
     let division: Division
     var body: some View {
         VStack{
@@ -16,8 +20,13 @@ struct StudentInput: View {
                Text(division.stats.displayMeasures())
                 
             }
-            .navigationTitle("Division View: \(division.code) + \(division.teacher)")
+            .navigationTitle(" \(division.code)" + ", \(division.teacher)")
             .navigationBarTitleDisplayMode(.inline)
+            
+          
+            Picker("Select out of 5: ", selection: $homeworkDifficulty)
+                
+            
       }
     }
 }

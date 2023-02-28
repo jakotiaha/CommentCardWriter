@@ -31,8 +31,9 @@ struct ContentView: View {
                 
                 
                 }
+            .navigationBarTitle("Comment Card Writer", displayMode: .large)
             }
-        .navigationBarTitle("Comment Card Writer", displayMode: .large)
+        
         
     }
 }

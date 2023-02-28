@@ -18,11 +18,10 @@ struct Statistics {
             return """
                Homework Difficulty: \(homeworkDifficulty)
                
-               
                Classwork Difficulty: \(classworkDifficulty)
                
-               
                Overall Enjoyment: \(overallEnjoyment)
+               
                """
     }
 
